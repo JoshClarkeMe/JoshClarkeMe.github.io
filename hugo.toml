@@ -1,0 +1,70 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-au'
+title = 'Josh Clarke'
+theme = 'hermit-V2-main'
+
+copyright = "Josh Clarke 2024"
+enableEmoji = true
+
+[params.author]
+  name = "Josh Clarke"
+  about = "About Josh"
+
+  [params]
+  dateform        = "2 Jan 2006"
+  dateformShort   = "2 Jan"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "02-01-2006 15:04 -0700"
+
+# description = "CHANGE ME SITE DESCRIPTION"
+  # images = [""]
+  themeColor = "#494f5c"
+
+  homeSubtitle = "No idea what I'm doing, but giving it a crack anyway..."
+#  footerCopyright = "Copyright "
+  # bgImg = ""
+  # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+
+  justifyContent = false
+
+  relatedPosts = true
+  code_copy_button = true
+
+  homeSubtitlePrinter = true
+  scrollToTop = true 
+  global_mathjax = false
+  readTime = true
+  # readTimeSeparator = "CHANGE ME READ TIME"
+  # legacyLayout = false
+  shareSocial = false
+  # googleTagManager = "GTM-XXXXXXXX"
+  # tagSymbol = "#"
+  # categorySymbol = "⊲"
+  # pinned = "Pinned Posts"
+  # pinnedSVGname = "pin"
+  # descriptionInPosts= true
+  # initialPublish = "Initally Posted on: "
+  
+  [[params.socialLinks]]
+    name = "email"
+    url = "mailto:hello@joshclarke.me"
+
+  [[params.socialLinks]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/joshclarkeme/"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/joshclarkeme"
+
+[menu]
+
+  #[[menu.main]]
+   # name = "The Shed (Zettelkasten/PKM)"
+   # url = "https://www.notes.joshclarke.me"
+   # weight = 20
+
+ # [[menu.main]]
+ #   name = "About"
+ #   url = "about/"
+ #   weight = 10
